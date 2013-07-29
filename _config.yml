@@ -1,0 +1,19 @@
+#url: https://c9.io/timwis/langassist/workspace/app/_site #development
+#url: http://langassist.herokuapp.com #staging
+url: http://cityofphiladelphia.github.io/language-assistance #production
+jekyll_sort:
+  - src: pages
+    by: sort
+    dest: pages_info
+    include_tags:
+    - info
+  - src: pages
+    by: sort
+    dest: pages_index
+    include_tags:
+    - index
+  - src: pages
+    by: sort
+    dest: pages_resource
+    include_tags:
+    - resource

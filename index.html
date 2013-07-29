@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>Language Assistance</h1>
+<ul class="nav nav-tabs nav-stacked">
+{% for subpage in site.pages_index %}
+    <li><a href="{{ site.url }}{% if subpage.language %}/{{ subpage.language }}{% endif %}{{ subpage.url }}">{{ subpage.title }}</a></li>
+{% endfor %}
+</ul>
